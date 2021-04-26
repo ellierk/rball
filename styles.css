@@ -1,0 +1,42 @@
+/* Color Scheme*/
+.color1 {
+    background: #96C1E0;
+    font-size: 1.2em;
+}
+h5 {
+    font-family:'Inter', sans-serif;
+    font-size: 18pt;
+}
+h6 {
+    font-family:'Inter', sans-serif;
+    font-size: 12pt; 
+}
+/* Button Styles */
+.btn-outline-primary{
+    margin-left: 5%;
+    margin-top: 5%;
+    color:#065A82;
+    border-color:#065A82}
+.btn-outline-primary:hover{color:#fff;background-color:#065A82;border-color:#065A82}
+/* Menu Styles*/
+.nav-link {
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+.nav-link p {
+    margin-bottom:0%;
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+.nav-link p:hover {
+    color: rgb(90, 90, 90);
+}
+.card {
+    border-color: #A6BF73;
+    border-width: 3px;
+    margin-top: 5%;
+}
+.carousel {
+    width: 90%;
+    height: auto;
+}
