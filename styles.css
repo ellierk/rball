@@ -65,14 +65,13 @@ a {
     border-color:#065A82}
 .btn-outline-primary:hover{color:#fff;background-color:#065A82;border-color:#065A82}
 /* Menu Styles*/
+
 .nav-link {
-    color: black;
-}
-.nav-link p {
     margin-bottom:0%;
+    font-weight: bolder;
     color: black;
 }
-.nav-link p:hover {
+.nav-link:hover {
     color: rgb(90, 90, 90);
 }
 .card {
@@ -119,6 +118,18 @@ iframe {
     width: 80%;
     min-width: 100px;
 }
+.site-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rball-logo {
+    max-height: 5%;
+    max-width: 5%;
+    min-width: 40px;
+    min-height: 40px;
+    margin: 20px;
+}
 @media only screen and (max-width: 400px) {
     main {
         padding-bottom: 15rem;
@@ -131,6 +142,9 @@ iframe {
         margin: 0%;
     }
     h1 {
-        font-size: 27pt;
+        font-size: 20pt;
+    }
+    .rball-logo {
+        margin: 10px;
     }
   }
